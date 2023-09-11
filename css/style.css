@@ -85,7 +85,7 @@ button{
     height: 30px;    
 }
 
-#button-1{
+.button-1{
     color: black;
     border-radius: 20px;
     border: none;
@@ -96,7 +96,7 @@ button{
     margin-left: 125px;
 }
 
-#button-2{
+.button-2{
     background-color: #23272A; 
     color: white;
     border-radius: 20px;
@@ -112,6 +112,20 @@ button{
 
 /*inizio main */
 
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.pull-left{
+    float: left;
+}
+
+.pull-right{
+    float: right;
+}
+
 main section{
     padding: 60px 0;
 }
@@ -122,6 +136,11 @@ main section{
 
 h2{
     font-size: 30px;
+    text-align: center;
+}
+
+h5{
+    text-align: center;
 }
 
 h4{
@@ -133,7 +152,7 @@ h4{
 }
 
 
-#button-4{
+.button-4{
     color: white;
     border-radius: 20px;
     border: none;
@@ -155,6 +174,7 @@ footer{
     padding-top: 40px;
 }
 
+
 .footer-bottom{
     max-width: 1200px;
     margin: 0 auto;
@@ -163,11 +183,11 @@ footer{
     padding-top: 10px;
 }
 
-#text{
+.text{
     color: #7289DA;
 }
 
-#flag{
+.flag{
     width: 20px;
     height: 15px;
 }
@@ -185,7 +205,7 @@ select{
     padding-left: 100px;
 }
 
-#button-3{
+.button-3{
     color: white;
     background-color:#7289DA;
     border-radius: 10px;
