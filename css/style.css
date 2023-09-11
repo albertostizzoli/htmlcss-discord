@@ -1,5 +1,84 @@
+/* selettori generali */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+    font-family: 'Noto Sans Linear B', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+
+.debug{
+    border: 1px solid black;
+}
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.d-flex-2{
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a, a:hover{
+    color: white;
+    padding: 6px 10px;
+    display: block;
+    text-decoration: none;
+}
+
+/*inizio header*/
+
+header{
+    background-color: #2A5EE8;
+    padding-top: 15px;
+}
+
+#hero{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#hero .container{
+    min-height: 500px;
+}
+
+.hero-content{
+    max-width: 800px;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 2em;
+}
+
+p{
+    text-align: center;
+    padding-top: 20px;
+}
+
+button{
+    color: black;
+    border-radius: 5px;
+    
 }
