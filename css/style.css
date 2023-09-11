@@ -17,9 +17,6 @@ body{
     padding: 0 5px;
 }
 
-.debug{
-    border: 1px solid black;
-}
 
 .d-flex{
     display: flex;
@@ -122,6 +119,32 @@ main section{
 .bg-grey{
     background-color: #F6F6F6;
 }
+
+h2{
+    font-size: 30px;
+}
+
+h4{
+    text-align: center;
+    background-image: url("../img/stars.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 20px;
+}
+
+
+#button-4{
+    color: white;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-left: 680px;
+    background-color:#7289DA;
+}
+
 
 /* fine main */
 
