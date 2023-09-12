@@ -112,6 +112,19 @@ button{
 
 /*inizio main */
 
+.wave{
+    width: 100%;
+    display: block;
+    opacity: 0.03;
+}
+
+.wave-2{
+    width: 100%;
+    display: block;
+    transform: rotate(180deg);
+    opacity: 0.03;
+}
+
 .clearfix{
     content: "";
     display: table;
@@ -135,7 +148,7 @@ main section{
 }
 
 h2{
-    font-size: 45px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -150,7 +163,6 @@ h4{
     background-repeat: no-repeat;
     font-size: 20px;
 }
-
 
 .button-4{
     color: white;
