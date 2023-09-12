@@ -135,7 +135,7 @@ main section{
 }
 
 h2{
-    font-size: 30px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -174,7 +174,6 @@ footer{
     padding-top: 40px;
 }
 
-
 .footer-bottom{
     max-width: 1200px;
     margin: 0 auto;
@@ -195,6 +194,7 @@ footer{
 select{
     background-color: #23272A;
     color: white;
+    border: none;
 }
 
 
