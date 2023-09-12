@@ -96,6 +96,11 @@ button{
     margin-left: 125px;
 }
 
+button:hover{
+    color: #7289DA;
+    box-shadow: 3px 3px 10px rgba(55, 55, 55, 0.5);
+}
+
 .button-2{
     background-color: #23272A; 
     color: white;
@@ -106,6 +111,12 @@ button{
     font-weight: 600;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.button-2:hover{
+    color: white;
+    box-shadow: 3px 3px 10px rgba(55, 55, 55, 0.5);
+    opacity: 0.9;
 }
 
 /* fine header */
@@ -176,6 +187,12 @@ h4{
     background-color:#7289DA;
 }
 
+.button-4:hover{
+    color: white;
+    box-shadow: 3px 3px 10px rgba(55, 55, 55, 0.5);
+    opacity: 0.9;
+}
+
 
 /* fine main */
 
@@ -226,8 +243,15 @@ select{
     height: 30px;
 }
 
+.button-3:hover{
+    color: white;
+    opacity: 0.9;
+}
+
 .d-flex-4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
+/* fine footer */
