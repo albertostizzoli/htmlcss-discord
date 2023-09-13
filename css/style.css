@@ -99,6 +99,7 @@ button{
 button:hover{
     color: #7289DA;
     box-shadow: 3px 3px 10px rgba(55, 55, 55, 0.5);
+    cursor: pointer;
 }
 
 .button-2{
@@ -117,6 +118,7 @@ button:hover{
     color: white;
     box-shadow: 3px 3px 10px rgba(55, 55, 55, 0.5);
     opacity: 0.9;
+    cursor: pointer;
 }
 
 /* fine header */
@@ -191,6 +193,7 @@ h4{
     color: white;
     box-shadow: 3px 3px 10px rgba(55, 55, 55, 0.5);
     opacity: 0.9;
+    cursor: pointer;
 }
 
 
@@ -246,6 +249,7 @@ select{
 .button-3:hover{
     color: white;
     opacity: 0.9;
+    cursor: pointer;
 }
 
 .d-flex-4{
