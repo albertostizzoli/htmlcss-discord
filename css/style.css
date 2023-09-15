@@ -258,4 +258,9 @@ select{
     justify-content: space-between;
 }
 
+.icon-flex{
+    display: flex;
+    flex-direction: row;
+}
+
 /* fine footer */
